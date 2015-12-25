@@ -1,0 +1,167 @@
+/* Tiny Carousel */
+#slider1 {
+	width:730px;
+	margin:0 auto;
+}
+#slider1 .viewport {
+	width: 675px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	float:left;
+	margin-bottom:20px;
+}
+#slider1 .buttons {
+	background: url(../images/buttons.png) no-repeat;
+	display: block;
+	margin-top:63px;
+	background-position: 0 0px;
+	text-indent: -999em;
+	float: left;
+	width: 17px;
+	height: 21px;
+	overflow: hidden;
+	position: relative;
+}
+#slider1 .next {
+	background-position:0px -27px;
+	margin-left:10px;
+}
+#slider1 .prev {
+	margin-right:10px;
+}
+
+#slider1 .disable {
+	visibility: hidden;
+}
+#slider1 .overview {
+	list-style: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 685px;
+	left: 0;
+	top: 0;
+}
+#slider1 .overview li {
+	float: left;
+	/*border: 3px solid #e33cc5;*/
+	
+	
+	margin: 0px 17px;
+	padding: 4px;
+	height: 128px;
+	width: 289px;
+	background: rgb(225,16,188); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(225,16,188,1) 0%, rgba(105,53,190,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(225,16,188,1)), color-stop(100%,rgba(105,53,190,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(225,16,188,1) 0%,rgba(105,53,190,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(225,16,188,1) 0%,rgba(105,53,190,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(225,16,188,1) 0%,rgba(105,53,190,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(225,16,188,1) 0%,rgba(105,53,190,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e110bc', endColorstr='#6935be',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	;
+}
+
+#slider1 .pager {
+	overflow: hidden;
+	list-style: none;
+	clear: both;
+	margin: 0 auto;
+	width: 35px;
+}
+#slider1 .pager li {
+	float: left;
+	margin:0px;
+	padding:0px;
+}
+#slider1 .pagenum {
+	text-indent: -100000000px;
+	background: url(../images/pager.png) -10px 0px no-repeat;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	margin: 1px;
+}
+#slider1 .active {
+	background-position: 0px 0px;
+}
+
+#slider2 {
+    position:absolute;
+	left:50%;
+	margin-left:-300px;
+	width:250px;
+}
+#slider2 .viewport {
+	width:250px;
+	height: 141px;
+	overflow: hidden;
+	position: relative;
+	border:#e4e4e4 1px solid;
+	padding:1px 1px;
+	margin:2px 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+#slider2 .overview {
+	list-style: none;
+	position:absolute;
+	margin:0;
+	padding:0;
+	left: 0;
+	top: 0;
+}
+#slider2 .overview li {
+	cursor:pointer;
+	padding:0px;
+	width:77px;
+	height:137px;
+	position:relative;
+	border:3px solid #fff;
+	margin-left:1px;
+	float:left;
+	background-color:#fff;
+}
+#slider2 .overview li .arrow {
+	display:none;
+}
+#slider2 .overview li:hover, #slider2 .overview li.active {
+	padding:0px;
+	border:3px solid #cdbfe6;
+}
+#slider2 .overview li:hover .arrow, #slider2 .overview li.active .arrow {
+	display:block;
+	position:absolute;
+	right:-10px;
+	top:60px;
+}
+#slider2 .buttons {
+	background: url(../images/arrow_spryte_222.png) 0 0 no-repeat;
+	display: block;
+	text-indent: -999em;
+	float: left;
+	width: 27px;
+	height: 27px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 32px;
+}
+#slider2 .next {
+    margin-left:255px;
+	top:65px;
+	background-position:-33px 0px;
+}
+#slider2 .next:hover {
+	background-position:-33px -32px;
+}
+#slider2 .prev {
+    margin-left:-24px;
+	top:65px;
+	background-position:0px 0px;
+}
+#slider2 .prev:hover {
+	background-position:0px -32px;
+}

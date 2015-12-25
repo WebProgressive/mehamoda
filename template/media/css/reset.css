@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.radius {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	padding: 0;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+}
+fieldset, img {
+	border: 0;
+}
+caption, th {
+	text-align: left;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border: 0;
+}
+a {
+	color: inherit;
+}
+a img, :link img, :visited img {
+	border: none;
+}
+:link, :visited {
+	text-decoration: none;
+}
+.fltrt {
+	float: right;
+	margin-left: 5px;
+}
+.fltlft {
+	float: left;
+	margin-right: 5px;
+}
+.clear {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
