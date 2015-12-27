@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <!--[if IE 7]><html class="ie7"> <![endif]-->
 <!--[if IE 8]><html class="ie8"> <![endif]-->
@@ -14,11 +14,35 @@
 <meta name="description" content="" />
 <link href="template/media/css/reset.css" rel="stylesheet" type="text/css" />
 <link href="template/media/css/carousel.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="template/media/css/styles.css?v=1">
+<link rel="stylesheet" type="text/css" href="template/media/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="template/media/css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="template/media/css/animate.css" />
+<link href="template/media/css/owl.carousel.css" rel="stylesheet" />
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <script src="template/media/js/less-1.3.0.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="template/media/js/jquery.min.js"></script>
+ <script src="template/media/js/jquery-1.9.1.min.js"></script> 
+    <script src="template/media/js/owl.carousel.js"></script>
+    <script src="template/media/js/owl.carousel2.thumbs.js"></script>
+<script>
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    items:1,
+    singleItem:true,
+    thumbs: true,
+    thumbsPrerendered: true,
+    thumbContainerClass: 'owl-thumbs',
+    thumbItemClass: 'owl-thumb-item',
+    animateOut: 'slideOutDown',
+    animateIn: 'fadeInDown',
+    items:1,
+    smartSpeed:450
+});
+});
+
+
+</script>
+
 <script type="text/javascript" src="template/media/js/jquery.tinycarousel.min.js"></script>
 <script type="text/javascript" src="template/media/js/jquery.cookie.js"></script>
 <script type="text/javascript" src="template/media/js/jquery.maskedinput.min.js"></script>
@@ -37,488 +61,216 @@
 </div>
 
 <div class="container">
+
   <div class="header">
-    <div class="logo"> <a href="http://mehamoda.ru/"></a> </div>
-    <div class="icons"><a href="http://mehamoda.ru/" class="icon_1"></a><a href="http://mehamoda.ru/sitemap/" class="icon_2"></a><a href="http://mehamoda.ru/contact/" class="icon_3"></a></div>
+    <div class="logo"> <a href="/"></a> </div>
+    <div class="icons"><a href="/" class="icon_1"></a>
+    <a href="http://mehamoda.ru/sitemap/" class="icon_2"></a>
+    <a href="http://mehamoda.ru/contact/" class="icon_3"></a></div>
     <div class="contacts">
       <p class="txt">Телефон:</p>
       <p class="numb"><b>+7 926 875-05-05</b></p>
       <p class="numb"><b>+7 495 532-42-83</b></p>
     </div>
     <div class="clear"></div>
-    <div class="menu"><a href="http://mehamoda.ru/page75/">О магазине</a><span>/</span><a href="http://mehamoda.ru/meh/">Все о мехе</a><span>/</span><a href="http://mehamoda.ru/page76/">Доставка и оплата</a><span>/</span><a href="http://mehamoda.ru/page78/">Вопрос-ответ</a><span>/</span><a href="http://mehamoda.ru/basket/" class="menu_basket">Корзина<span class="inbasket"></span></a><div class="clear"></div></div>    <div class="clear"></div>
+    <div class="menu">
+    <a href="#">О магазине</a><span>/</span>
+    <a href="#">Все о мехе</a><span>/</span>
+    <a href="#">Доставка и оплата</a><span>/</span>
+    <a href="#">Вопрос-ответ</a><span>/</span>
+    <a href="#" class="menu_basket">Корзина<span class="inbasket"></span></a>
+    <div class="clear"></div></div>    <div class="clear"></div>
     <!-- end .header --></div>
+
   <div class="clear"></div>
+
   <div class="content">
+
     <div class="sidebar">
-      <div class="title"><span>Каталог</span></div><ul class="menu_1"><li><a href="http://mehamoda.ru/catalog/page82/">Жакеты из вязаной норки</a></li><li><a href="http://mehamoda.ru/catalog/acsessories/">Норковые полушубки</a></li><li><a href="http://mehamoda.ru/catalog/page84/">Норковый трикотаж</a></li><li><a href="http://mehamoda.ru/catalog/page88/">Шиншилла рекс</a></li><li><a href="http://mehamoda.ru/catalog/catalog100/">Шубки из оцелота</a></li><li><a href="http://mehamoda.ru/catalog/page85/">Жилеты из меха чернобурки</a></li><li><a href="http://mehamoda.ru/catalog/page86/">Жилеты из меха песца</a></li><li><a href="http://mehamoda.ru/catalog/page81/">Полушубки из вязаной норки</a></li><li><a href="http://mehamoda.ru/catalog/page87/">Большие размеры</a></li><li class="last"><a href="http://mehamoda.ru/catalog/page83/">Меховые аксессуары</a></li></ul>      <div class="clear"></div>
+      <div class="title"><span>Каталог</span></div>
+      <ul class="menu_1">
+      <li><a href="#">Жакеты из вязаной норки</a></li>
+      <li><a href="#">Норковые полушубки</a></li>
+      <li><a href="#">Норковый трикотаж</a></li>
+      <li><a href="#">Шиншилла рекс</a></li>
+      <li><a href="#">Шубки из оцелота</a></li>
+      <li><a href="#">Жилеты из меха чернобурки</a></li>
+      <li><a href="#">Жилеты из меха песца</a></li>
+      <li><a href="#">Полушубки из вязаной норки</a></li>
+      <li><a href="#">Большие размеры</a></li>
+      <li class="last"><a href="#">Меховые аксессуары</a></li>
+      </ul>
+            <div class="clear"></div>
       <div class="menu_2">
-        <ul><li><a href="http://mehamoda.ru/page78/?group=xO7x8uDi6uAg6CDu7%2Bvg8uA%3D">Доставка и оплата</a></li><li><a href="http://mehamoda.ru/page78/?group=wv%2Fn4O3g%2FyDt7vDq4A%3D%3D">Вязаная норка</a></li><li><a href="http://mehamoda.ru/page78/?group=ze7w6u7i%2B%2BUg7%2BDr4O3y6O37">Норковые палантины</a></li><li><a href="http://mehamoda.ru/page78/?group=wuD46CDu8uf74vs%3D">Ваши отзывы</a></li><li><a href="http://mehamoda.ru/page78/?group=0ODn7e7l">Разное</a></li><li><a href="http://mehamoda.ru/page78/?group="></a></li></ul><div class="clear"></div>      </div>
+        <ul>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">Вязаная норка</a></li>
+        <li><a href="#">Норковые палантины</a></li>
+        <li><a href="#">Ваши отзывы</a></li>
+        <li><a href="#">Разное</a></li>
+        <li><a href="#"></a></li>
+        </ul>
+        <div class="clear"></div>      </div>
       <div class="clear"></div>
       <div class="menu_2_border"></div>
       <div class="clear"></div>
       <!-- end .sidebar --></div>
+
     <div class="cont_inner">
         <h1>Жакеты из вязаной норки</h1>
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=53">
-          <div class="pic_place"><img src="file/catalog/photo253.jpg" alt="" height="275"></div>
+
+  
+<div class="product_block" rel="#">
+    <div class="pic_place owl-carousel" data-slider-id="1">
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+          </div>
+
+<div class="owl-thumbs" data-slider-id="1">
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+</div> 
           <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=53">Жакет из вязаной норки</a>
+            <div class="info_place_inn"><span>Жакет из вязаной норки</span>
               <p class="article">Артикул: <span class="number">12019</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
+              <p class="size">Размеры <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              </p>
+              <div class="price">
+                <p class="price-new">Цена со скидкой<span>1 000 000 руб.</span></p>
+                <p class="price-old">Цена без скидки<span>1 000 000 руб.</span>
+                </p>
+              </div>
+            </div>
+            <div class="more">
+              <a href="#">Подробнее</a>
             </div>
           </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=294">
-          <div class="pic_place"><img src="file/catalog/photo2294.jpg" alt="" height="275"></div>
+        </div>                    
+      
+ <div class="product_block" rel="#">
+    <div class="pic_place owl-carousel" data-slider-id="2">
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+          </div>
+
+<div class="owl-thumbs" data-slider-id="2">
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+</div> 
           <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=294">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12990</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
+            <div class="info_place_inn"><span>Жакет из вязаной норки</span>
+              <p class="article">Артикул: <span class="number">12019</span></p>
+              <p class="size">Размеры <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              </p>
+              <div class="price">
+                <p class="price-new">Цена со скидкой<span>1 000 000 руб.</span></p>
+                <p class="price-old">Цена без скидки<span>1 000 000 руб.</span>
+                </p>
+              </div>
+            </div>
+            <div class="more">
+              <a href="#">Подробнее</a>
             </div>
           </div>
-        </div>
+        </div> 
         
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=52">
-          <div class="pic_place"><img src="file/catalog/photo252.jpg" alt="" height="275"></div>
+        <div class="product_block" rel="#">
+    <div class="pic_place owl-carousel" data-slider-id="3">
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+          </div>
+
+<div class="owl-thumbs" data-slider-id="3">
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+</div> 
           <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=52">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11818</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
+            <div class="info_place_inn"><span>Жакет из вязаной норки</span>
+              <p class="article">Артикул: <span class="number">12019</span></p>
+              <p class="size">Размеры <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              </p>
+              <div class="price">
+                <p class="price-new">Цена со скидкой<span>1 000 000 руб.</span></p>
+                <p class="price-old">Цена без скидки<span>1 000 000 руб.</span>
+                </p>
+              </div>
+            </div>
+            <div class="more">
+              <a href="#">Подробнее</a>
             </div>
           </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=293">
-          <div class="pic_place"><img src="file/catalog/photo2293.jpg" alt="" height="275"></div>
+        </div> 
+
+        <div class="product_block" rel="#">
+    <div class="pic_place owl-carousel" data-slider-id="4">
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+    <div><img src="file/catalog/photo216.jpg" alt="" height="275" width="174"></div>
+          </div>
+
+<div class="owl-thumbs" data-slider-id="4">
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+<button class="owl-thumb-item"><img src="file/catalog/thumb-img.jpg" alt=""></button>
+</div> 
           <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=293">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11838</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
+            <div class="info_place_inn"><span>Жакет из вязаной норки</span>
+              <p class="article">Артикул: <span class="number">12019</span></p>
+              <p class="size">Размеры <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              <span class="proportions">46</span>
+              </p>
+              <div class="price">
+                <p class="price-new">Цена со скидкой<span>1 000 000 руб.</span></p>
+                <p class="price-old">Цена без скидки<span>1 000 000 руб.</span>
+                </p>
+              </div>
+            </div>
+            <div class="more">
+              <a href="#">Подробнее</a>
             </div>
           </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=100">
-          <div class="pic_place"><img src="file/catalog/photo2100.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=100">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11940</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=110">
-          <div class="pic_place"><img src="file/catalog/photo2110.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=110">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11941</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=78">
-          <div class="pic_place"><img src="file/catalog/photo278.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=78">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11736</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=368">
-          <div class="pic_place"><img src="file/catalog/photo2368.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=368">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11420</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=395">
-          <div class="pic_place"><img src="file/catalog/photo2395.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=395">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11425</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=114">
-          <div class="pic_place"><img src="file/catalog/photo2114.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=114">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11532</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=206">
-          <div class="pic_place"><img src="file/catalog/photo2206.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=206">Жакет норковый - вязаный</a>
-              <p class="article">Артикул: <span class="number">17220</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=112">
-          <div class="pic_place"><img src="file/catalog/photo2112.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=112">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11720</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=99">
-          <div class="pic_place"><img src="file/catalog/photo299.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=99">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11934</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=98">
-          <div class="pic_place"><img src="file/catalog/photo298.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=98">Жакет норковый - вязаный</a>
-              <p class="article">Артикул: <span class="number">11930</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=354">
-          <div class="pic_place"><img src="file/catalog/photo2354.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=354">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">16236</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=295">
-          <div class="pic_place"><img src="file/catalog/photo2295.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=295">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12321</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=109">
-          <div class="pic_place"><img src="file/catalog/photo2109.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=109">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12121</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=73">
-          <div class="pic_place"><img src="file/catalog/photo273.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=73">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">21730</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=203">
-          <div class="pic_place"><img src="file/catalog/photo2203.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=203">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">17228</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=204">
-          <div class="pic_place"><img src="file/catalog/photo2204.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=204">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">23221</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=202">
-          <div class="pic_place"><img src="file/catalog/photo2202.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=202">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">21515</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=364">
-          <div class="pic_place"><img src="file/catalog/photo2364.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=364">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">24254</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=337">
-          <div class="pic_place"><img src="file/catalog/photo2337.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=337">Жакет из меха шиншилла рекс</a>
-              <p class="article">Артикул: <span class="number">10889</span></p>
-        <p class="last">Необычайно легкий, нежный на ощупь, густой и роскошный - именно так характеризуют мех шиншиллы рекс все известные модельеры.</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=96">
-          <div class="pic_place"><img src="file/catalog/photo296.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=96">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11932</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=111">
-          <div class="pic_place"><img src="file/catalog/photo2111.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=111">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11832</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=366">
-          <div class="pic_place"><img src="file/catalog/photo2366.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=366">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">112020</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=392">
-          <div class="pic_place"><img src="file/catalog/photo2392.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=392">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11907</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=393">
-          <div class="pic_place"><img src="file/catalog/photo2393.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=393">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11512</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=394">
-          <div class="pic_place"><img src="file/catalog/photo2394.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=394">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12712</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=352">
-          <div class="pic_place"><img src="file/catalog/photo2352.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=352">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11903</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=169">
-          <div class="pic_place"><img src="file/catalog/photo2169.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=169">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11904</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=396">
-          <div class="pic_place"><img src="file/catalog/photo2396.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=396">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">19799</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=397">
-          <div class="pic_place"><img src="file/catalog/photo2397.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=397">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">19703</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=403">
-          <div class="pic_place"><img src="file/catalog/photo2403.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=403">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11427</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=404">
-          <div class="pic_place"><img src="file/catalog/photo2404.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=404">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">27220</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=405">
-          <div class="pic_place"><img src="file/catalog/photo2405.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=405">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">21934</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=410">
-          <div class="pic_place"><img src="file/catalog/photo2410.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=410">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">26236</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=411">
-          <div class="pic_place"><img src="file/catalog/photo2411.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=411">Полупальто из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">5464</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=412">
-          <div class="pic_place"><img src="file/catalog/photo2412.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=412">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">21512</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=413">
-          <div class="pic_place"><img src="file/catalog/photo2413.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=413">Полушубок из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">5871</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=431">
-          <div class="pic_place"><img src="file/catalog/photo2431.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=431">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">11030</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=432">
-          <div class="pic_place"><img src="file/catalog/photo2432.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=432">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12040</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=433">
-          <div class="pic_place"><img src="file/catalog/photo2433.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=433">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">13050</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=434">
-          <div class="pic_place"><img src="file/catalog/photo2434.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=434">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">12323</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=435">
-          <div class="pic_place"><img src="file/catalog/photo2435.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=435">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">14060</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
-        
-      <div class="product_block" rel="http://mehamoda.ru/catalog/page82/?id=436">
-          <div class="pic_place"><img src="file/catalog/photo2436.jpg" alt="" height="275"></div>
-          <div class="info_place">
-            <div class="info_place_inn"> <a href="http://mehamoda.ru/catalog/page82/?id=436">Жакет из вязаной норки</a>
-              <p class="article">Артикул: <span class="number">15070</span></p>
-        <p class="last">Укороченная шубка из очаровательного меха норки связана, а не сшита! Это придает изделию фактурность и выразительность. Мех становится объемным и пушистым, он играет на солнце и смотрится очень богато!</p>
-            </div>
-          </div>
-        </div>
+        </div>      
         <div class="clear"></div>      <div class="clear"></div>
     </div>
     <div class="clear"></div>
@@ -543,22 +295,15 @@
       <a href="http://vk.com/mehamoda" class="vk" target="_blank"></a>
       <a href="#" class="fb"></a>
       <a href="#" class="tw"></a></div>
-      <div class="more_icons"><!--LiveInternet counter--><script type="text/javascript"><!--
-document.write("<a href='http://www.liveinternet.ru/click' "+
-"target=_blank><img src='//counter.yadro.ru/hit?t44.2;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";"+Math.random()+
-"' alt='' title='LiveInternet' "+
-"border='0' width='31' height='31'><\/a>")
-//--></script><!--/LiveInternet--></div>
+      <div class="more_icons"><img src="file/catalog/icon-lv.jpg" height="31" width="31"></div>
     </div>
     <div class="creators"><a href="http://www.akona.ru"><img src="template/media/images/pic_6.jpg" alt="">разработка сайта</a></div>
     <div class="clear"></div>
     <!-- end .footer --></div>
   <div class="clear"></div>
   <!-- end .container --></div>
+
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 (function (d, w, c) {
