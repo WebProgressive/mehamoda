@@ -653,7 +653,7 @@ h2 {
   margin-bottom: 1px;
 }
 
-.content .product_block .info_place .info_place_inn p.size span.proportions {
+.content .product_block .info_place .info_place_inn p.size > a {
   border: 1px solid #a0a0a0;
   padding: 1px 8px 0;
   display: inline-block;
@@ -661,9 +661,11 @@ h2 {
   -webkit-border-radius: 7px 7px 7px 7px;
   border-radius: 7px 7px 7px 7px;
   background: none;
+  color: #000;
+  text-decoration: none;
 }
 
-.content .product_block .info_place .info_place_inn p.size span.proportions:hover {
+.content .product_block .info_place .info_place_inn p.size > a:hover {
   background: #6532bc;
   color: #fff;
   text-decoration: underline;
