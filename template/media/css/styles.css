@@ -668,6 +668,7 @@ h2 {
   color: #fff;
   text-decoration: underline;
   cursor: pointer;
+  border: 1px solid #6532bc;
 }
 
 .content .product_block .info_place .info_place_inn .price {
@@ -1586,7 +1587,7 @@ div.prod-text {
   top: 0px !important;
 }
 .gen2 .size_price {cursor: pointer;}
-.gen2 .size:hover {
+.gen2 .size:hover, .gen2 .size.active {
   background: #6331BC;
   border: 1px solid #6331BC;
 }
@@ -1594,15 +1595,7 @@ div.prod-text {
   color: #fff;
   text-decoration: underline;
 }
-.gen2 .size.active, .gen2 .size:hover{
-  padding: 6px 8px 5px;/*8px*/
-  margin: 9px;
-  top: 2px;
-  left: -1px;
-  background: #6331BC;
-  border-radius: 21px;
-  border: 1px solid #6331BC;
-}
+
 .gen2 .size.active span {
   color: #fff;
 }
