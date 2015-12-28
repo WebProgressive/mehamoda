@@ -660,6 +660,14 @@ h2 {
   margin: 0 2px 5px 2px;
   -webkit-border-radius: 7px 7px 7px 7px;
   border-radius: 7px 7px 7px 7px;
+  background: none;
+}
+
+.content .product_block .info_place .info_place_inn p.size span.proportions:hover {
+  background: #6532bc;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .content .product_block .info_place .info_place_inn .price {
